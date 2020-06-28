@@ -1,13 +1,13 @@
-# BlueBanquise Inventory Single Iceberg
+# BlueBanquise Inventory High Availability Management
 
 This project aims to provide an inventory to use with
 [BlueBanquise](https://www.bluebanquise.com).
 
-This Single Iceberg example is made of:
+This High Availability Management example is made of:
 
- * 1 management node
+ * 2 management nodes (for High Availability)
  * 1 login node
- * 4 computes nodes
+ * 1 compute node
 
 All of them are linked to a single ethernet management network and to one
 interconnect.
