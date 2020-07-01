@@ -4,10 +4,10 @@ mg_computes:
       hosts:
         c001:
           network_interfaces:
-            ens5:
+            - interface: ens5
               ip4: 10.10.3.1
               mac: 08:00:27:0d:44:90
               network: ice1-1
-            ens6:
+            - interface: ens6
               ip4: 10.20.3.1
               network: interconnect-1
